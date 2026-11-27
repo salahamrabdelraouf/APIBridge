@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Community (Telegram)
+    url: https://t.me/PromptixOfficial
+    about: Questions and discussion
+  - name: Security reports
+    url: https://facebook.com/Promptix
+    about: Please report vulnerabilities privately — see SECURITY.md
