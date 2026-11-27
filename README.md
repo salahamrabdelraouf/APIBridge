@@ -1,10 +1,12 @@
 # APIBridge
 
-![Release](https://img.shields.io/github/v/release/salahamrabdelraouf/APIBridge)
-![License](https://img.shields.io/github/license/salahamrabdelraouf/APIBridge)
-![Stars](https://img.shields.io/github/stars/salahamrabdelraouf/APIBridge)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![Local-first](https://img.shields.io/badge/local--first-no%20cloud-green)
+[![Release](https://img.shields.io/badge/release-v6.1.12-blue)](https://github.com/salahamrabdelraouf/APIBridge/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Stars](https://img.shields.io/badge/GitHub-stars-yellow)](https://github.com/salahamrabdelraouf/APIBridge/stargazers)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/salahamrabdelraouf/APIBridge/releases/latest)
+[![Local-first](https://img.shields.io/badge/local--first-no_cloud-green)](PRIVACY.md)
+
+🌐 **Language:** English | [العربية](README.ar.md)
 
 **One local address for all your AI providers — configure your coding tools once, and switch models and providers without ever touching their settings again.**
 
