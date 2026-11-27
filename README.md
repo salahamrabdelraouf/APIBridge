@@ -1,5 +1,11 @@
 # APIBridge
 
+![Release](https://img.shields.io/github/v/release/salahamrabdelraouf/APIBridge)
+![License](https://img.shields.io/github/license/salahamrabdelraouf/APIBridge)
+![Stars](https://img.shields.io/github/stars/salahamrabdelraouf/APIBridge)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Local-first](https://img.shields.io/badge/local--first-no%20cloud-green)
+
 **One local address for all your AI providers — configure your coding tools once, and switch models and providers without ever touching their settings again.**
 
 APIBridge is a local API bridge for Windows. It sits between your coding tools (ZCode, OpenCode, or any OpenAI-compatible client) and your AI providers, exposes a single fixed local endpoint, and routes every request to the right provider and model — with automatic failover when a model or provider fails.
@@ -19,6 +25,30 @@ APIBridge is a local API bridge for Windows. It sits between your coding tools (
 - **A floating AI assistant** — chat with your models from a glass popup, with full Markdown, message edit/retry, and per-model test chat (ping, details, live chat) right from the Models page.
 - **Safe integration** — APIBridge writes its record into your tools' config files in their exact original format, with a backup, JSON verification, and a restore that only confirms after a deliberate 5-second wait.
 
+## Screenshots
+
+**Models** — every provider's models in one place, with per-model test chat (ping, details, live chat) one click away:
+
+![Models](assets/models.png)
+
+**Model Test Chat** — try any model at any provider before you rely on it:
+
+![Model Test Chat](assets/test-chat.png)
+
+**Security** — the shield, trust scores, and exemption controls:
+
+![Security](assets/security.png)
+
+**Safe integration** — write the bridge record into your tool's config, with backup and verification:
+
+![Safe integration](assets/integration.png)
+
+**Data Manager, inside Settings** — every file explained and labelled before you touch it:
+
+![Data Manager in Settings](assets/settings-datamanager.png)
+
+![Data Manager popup](assets/datamanager.png)
+
 ## What it does / does not do
 
 | ✅ APIBridge does | ❌ APIBridge does not |
@@ -35,7 +65,7 @@ The full, precise statement is in [PRIVACY.md](PRIVACY.md) and [SECURITY.md](SEC
 
 Releases are **portable ZIP packages** — no installer, no registry, no AppData. Extract, run `APIBridge.exe`, done. Your data lives in a `data` folder beside the executable, so the whole install is one folder you can move or back up.
 
-Every release publishes `SHA256SUMS.txt` next to the portable and source archives. Verify your download before running it:
+Every release publishes `SHA256SUMS.txt` next to the portable archive. Verify your download before running it:
 
 ```powershell
 certutil -hashfile APIBridge-vX.Y.Z-portable.zip SHA256
